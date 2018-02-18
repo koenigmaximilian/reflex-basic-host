@@ -24,7 +24,7 @@ library
 
 executable example
   main-is:             Main.hs
-  build-depends:       base >=4.9 && <4.10
+  build-depends:       base >=4.9 && <5
                      , mtl >= 2.2 && < 2.3
                      , reflex >= 0.5 && < 0.6
                      , reflex-basic-host
